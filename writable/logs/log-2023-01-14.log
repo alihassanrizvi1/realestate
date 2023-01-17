@@ -1,0 +1,18 @@
+CRITICAL - 2023-01-14 17:33:18 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\listing.php on line 51.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('listing', [], true)
+ 3 APPPATH\Controllers\Home.php(18): view('listing', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 17:40:23 --> syntax error, unexpected token "echo"
+in APPPATH\Views\listing.php on line 54.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('listing', [], true)
+ 3 APPPATH\Controllers\Home.php(18): view('listing', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

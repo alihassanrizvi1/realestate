@@ -1,0 +1,774 @@
+CRITICAL - 2023-01-16 05:58:53 --> App\Models\Properties::__construct(): Argument #1 ($db) must be of type CodeIgniter\Database\ConnectionInterface, null given, called in C:\xampp\htdocs\realestate\app\Controllers\Home.php on line 18
+in APPPATH\Models\Properties.php on line 11.
+ 1 APPPATH\Controllers\Home.php(18): App\Models\Properties->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:59:45 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+in APPPATH\Models\Properties.php on line 26.
+ 1 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:00:25 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+in APPPATH\Models\Properties.php on line 26.
+ 1 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:00:26 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+in APPPATH\Models\Properties.php on line 26.
+ 1 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:00:51 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+in APPPATH\Models\Properties.php on line 26.
+ 1 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:01:22 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+in APPPATH\Models\Properties.php on line 26.
+ 1 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:01:24 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+in APPPATH\Models\Properties.php on line 26.
+ 1 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:01:26 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+in APPPATH\Models\Properties.php on line 26.
+ 1 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:01:27 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+in APPPATH\Models\Properties.php on line 26.
+ 1 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:05:14 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Home.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-16 06:05:45 --> App\Models\Properties::__construct(): Argument #1 ($db) must be of type CodeIgniter\Database\ConnectionInterface, null given, called in C:\xampp\htdocs\realestate\app\Controllers\Home.php on line 18
+in APPPATH\Models\Properties.php on line 11.
+ 1 APPPATH\Controllers\Home.php(18): App\Models\Properties->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:05:53 --> App\Models\Properties::__construct(): Argument #1 ($db) must be of type CodeIgniter\Database\ConnectionInterface, null given, called in C:\xampp\htdocs\realestate\app\Controllers\Home.php on line 18
+in APPPATH\Models\Properties.php on line 11.
+ 1 APPPATH\Controllers\Home.php(18): App\Models\Properties->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:05:54 --> App\Models\Properties::__construct(): Argument #1 ($db) must be of type CodeIgniter\Database\ConnectionInterface, null given, called in C:\xampp\htdocs\realestate\app\Controllers\Home.php on line 18
+in APPPATH\Models\Properties.php on line 11.
+ 1 APPPATH\Controllers\Home.php(18): App\Models\Properties->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:05:55 --> App\Models\Properties::__construct(): Argument #1 ($db) must be of type CodeIgniter\Database\ConnectionInterface, null given, called in C:\xampp\htdocs\realestate\app\Controllers\Home.php on line 18
+in APPPATH\Models\Properties.php on line 11.
+ 1 APPPATH\Controllers\Home.php(18): App\Models\Properties->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:06:08 --> App\Models\Properties::__construct(): Argument #1 ($db) must be of type CodeIgniter\Database\ConnectionInterface, null given, called in C:\xampp\htdocs\realestate\app\Controllers\Home.php on line 18
+in APPPATH\Models\Properties.php on line 11.
+ 1 APPPATH\Controllers\Home.php(18): App\Models\Properties->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:06:22 --> App\Models\Properties::__construct(): Argument #1 ($db) must be of type CodeIgniter\Database\ConnectionInterface, null given, called in C:\xampp\htdocs\realestate\app\Controllers\Home.php on line 18
+in APPPATH\Models\Properties.php on line 11.
+ 1 APPPATH\Controllers\Home.php(18): App\Models\Properties->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:12:43 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+in APPPATH\Models\Properties.php on line 26.
+ 1 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:15:14 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+in APPPATH\Models\Properties.php on line 26.
+ 1 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:27:48 --> Undefined variable $db
+in APPPATH\Models\Properties.php on line 25.
+ 1 APPPATH\Models\Properties.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\Properties.php', 25)
+ 2 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:28:12 --> Undefined variable $db
+in APPPATH\Models\Properties.php on line 25.
+ 1 APPPATH\Models\Properties.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\Properties.php', 25)
+ 2 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:29:31 --> Call to undefined function App\Models\getResult()
+in APPPATH\Models\Properties.php on line 29.
+ 1 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 06:47:58 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::order_by()
+in APPPATH\Models\Properties.php on line 47.
+ 1 APPPATH\Controllers\Home.php(19): App\Models\Properties->filterData([...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 08:54:32 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 08:54:32 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 08:54:34 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 08:55:30 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 08:55:32 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 08:55:35 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 08:57:42 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 08:57:43 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 08:57:45 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 08:59:55 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 08:59:59 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:00:01 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:03:09 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:03:12 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:03:14 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:30:59 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:31:00 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:38:28 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:40:11 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:40:11 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:40:13 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:40:36 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:41:54 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:42:15 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:43:13 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:44:21 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(17): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:47:05 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:47:06 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 09:47:07 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:01:34 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:01:36 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:05:44 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:05:45 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:05:47 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:05:58 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:06:01 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:06:03 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:07:36 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:07:37 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:07:39 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:07:47 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:07:48 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:07:49 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:08:55 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:08:57 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:08:59 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:13:57 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:13:59 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:14:00 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:21:35 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:21:36 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:21:37 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:22:06 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:22:07 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:22:09 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:23:03 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:23:05 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:23:06 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:23:53 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:23:54 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:23:55 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:34:23 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:34:25 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:34:26 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:35:29 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:35:31 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:35:32 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:37:10 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:37:12 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:37:14 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:39:26 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:39:27 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:39:28 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 44.
+ 1 APPPATH\Models\Properties.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 44)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:39:51 --> Too few arguments to function App\Models\Properties::filterData(), 0 passed in C:\xampp\htdocs\realestate\app\Controllers\Home.php on line 39 and exactly 1 expected
+in APPPATH\Models\Properties.php on line 23.
+ 1 APPPATH\Controllers\Home.php(39): App\Models\Properties->filterData()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:39:53 --> Too few arguments to function App\Models\Properties::filterData(), 0 passed in C:\xampp\htdocs\realestate\app\Controllers\Home.php on line 39 and exactly 1 expected
+in APPPATH\Models\Properties.php on line 23.
+ 1 APPPATH\Controllers\Home.php(39): App\Models\Properties->filterData()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:40:31 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 45.
+ 1 APPPATH\Models\Properties.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 45)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:40:32 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 45.
+ 1 APPPATH\Models\Properties.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 45)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 17:40:34 --> Undefined array key "sortBy"
+in APPPATH\Models\Properties.php on line 45.
+ 1 APPPATH\Models\Properties.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sortBy"', 'APPPATH\\Models\\Properties.php', 45)
+ 2 APPPATH\Controllers\Home.php(16): App\Models\Properties->filterData([])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
